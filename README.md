@@ -90,6 +90,12 @@ curl -O https://raw.githubusercontent.com/nicolashery/mac-dev-setup/master/.bash
 curl -O https://raw.githubusercontent.com/nicolashery/mac-dev-setup/master/.bash_prompt
 curl -O https://raw.githubusercontent.com/nicolashery/mac-dev-setup/master/.aliases
 ```
+Since Mac OS Catalina uses ZSH;
+
+```
+mv ~/.bash_profile ~/.zprofile
+mv ~/.bash_prompt ~./zprompt
+```
 
 With that, open a new terminal tab (**Cmd+T**) and see the change! Try the list commands: `ls`, `ls -lh` (aliased to `ll`), `ls -lha` (aliased to `la`).
 

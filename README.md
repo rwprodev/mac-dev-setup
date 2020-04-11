@@ -94,7 +94,7 @@ Since Mac OS Catalina uses ZSH;
 
 ```
 mv ~/.bash_profile ~/.zprofile
-mv ~/.bash_prompt ~./zprompt
+mv ~/.bash_prompt ~/.zprompt
 ```
 
 With that, open a new terminal tab (**Cmd+T**) and see the change! Try the list commands: `ls`, `ls -lh` (aliased to `ll`), `ls -lha` (aliased to `la`).
